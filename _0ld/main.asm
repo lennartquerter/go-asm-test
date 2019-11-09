@@ -6,11 +6,11 @@ section .data
     y:      equ     50
     total:  equ     50
 
-    correct_label:    db      "correct!", 10
-    .len:       equ     $ - correct_label
+    correct_label:      db      "correct!", 10
+    .len:               equ     $ - correct_label
 
-    wrong_label:      db      "its wrong!", 10
-    .len:       equ     $ - wrong_label
+    wrong_label:        db      "its wrong!", 10
+    .len:               equ     $ - wrong_label
 
 section .text
 
